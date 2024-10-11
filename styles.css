@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}   
+.input {
+    width: 28%;
+    margin: auto;
+    padding: 10px;
+    background: #ADE8F4;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 2px solid #007EFF; 
+}
+h1 {
+    text-align: center;
+    color: #007EFF;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+label {
+    display: block;
+    margin: 8px 0 5px;
+    color: #007EFF;
+    font-weight: bold;
+}
+
+/* Flexbox for inputs */
+.fullname-input, .contact-age-input {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fullname-input div, .contact-age-input div {
+    flex: 1;
+}
+.address-input input[type="text"] {
+    height: 60px; 
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: border-color 0.3s, background-color 0.3s; 
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #007EFF; 
+    background-color: #E0F7FA; 
+    outline: none; 
+}
+
+input[type="submit"] {
+    background: #007EFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease; 
+}
+
+input[type="submit"]:hover {
+    background: #48CAE4;
+}
+
+.output {
+    margin-top: 20px;
+    background-color: #CAF0F8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+strong {
+    color: #007EFF;
+}
